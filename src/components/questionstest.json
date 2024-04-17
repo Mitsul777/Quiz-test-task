@@ -1,63 +1,63 @@
 [
   {
-    "question": "In CSS, which of these values CANNOT be used with the \"position\" property?",
+    "question": "Кем вы считаете мопса?",
     "answers": [
       {
-        "text": "static",
+        "text": "Шавкой дворовой",
         "isCorrect": false
       },
       {
-        "text": "relative",
+        "text": "Капралл-клитарчук",
         "isCorrect": false
       },
       {
-        "text": "center",
+        "text": "гадиной Макеевской",
         "isCorrect": true
       },
       {
-        "text": "absolute",
+        "text": "Отличный парень",
         "isCorrect": false
       }
     ]
   },
   {
-    "question": "How long is an IPv6 address?",
+    "question": "Как давно вы его знаете?",
     "answers": [
       {
-        "text": "128 bits",
+        "text": "Глаза б мои его не видели",
         "isCorrect": true
       },
       {
-        "text": "64 bits",
+        "text": "пару раз видел",
         "isCorrect": false
       },
       {
-        "text": "128 bytes",
+        "text": "читсо слышал",
         "isCorrect": false
       },
       {
-        "text": "32 bits",
+        "text": "всю свою осознанную жизнь",
         "isCorrect": false
       }
     ]
   },
   {
-    "question": "In the server hosting industry IaaS stands for...",
+    "question": "Продолжи выражение! Мопс - это...",
     "answers": [
       {
-        "text": "Infrastructure as a Service",
+        "text": "Мопсиха",
         "isCorrect": true
       },
       {
-        "text": "Internet and a Server",
+        "text": "Холлестерин",
         "isCorrect": false
       },
       {
-        "text": "Internet as a Service",
+        "text": "Барыга",
         "isCorrect": false
       },
       {
-        "text": "Infrastructure as a Server",
+        "text": "Движок",
         "isCorrect": false
       }
     ]
