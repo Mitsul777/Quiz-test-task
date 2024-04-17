@@ -23,7 +23,7 @@ export const Quiz = () => {
     const currentQuestion = questionstest[currentQuestionIndex];
 
     return (
-        <>
+        <div>
             <div className={styles.h3}>
                 <h3>{currentQuestionIndex === questionstest.length - 1 ? 'Final' : `Question ${currentQuestionIndex + 1} of ${questionstest.length}`}</h3>
             </div>
@@ -43,7 +43,7 @@ export const Quiz = () => {
                                             }
                                             setSelectedAnswerIndex(index); // Устанавливаем новый выбранный ответ
                                         }}
-                                        style={{ backgroundColor: selectedAnswerIndex === index ? '#008000' : 'cornflowerblue' }}
+                                        style={{ backgroundColor: selectedAnswerIndex === index ? '' : 'cornflowerblue' }}
                                         disabled={answers[currentQuestionIndex] !== null}
                                     >
                                         {answer.text}
@@ -63,6 +63,6 @@ export const Quiz = () => {
                     </p>
                 ))}
             </div>
-        </>
+        </div>
     );
 };
