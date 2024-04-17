@@ -27,6 +27,7 @@ export const Quiz = () => {
             <div className={styles.h3}>
                 <h3>{currentQuestionIndex === questionstest.length - 1 ? 'Final' : `Question ${currentQuestionIndex + 1} of ${questionstest.length}`}</h3>
             </div>
+            <div className={styles.separator}></div>
             {currentQuestion && (
                 <div>
                     <h2>{currentQuestion.question}</h2>
@@ -42,7 +43,7 @@ export const Quiz = () => {
                                             }
                                             setSelectedAnswerIndex(index); // Устанавливаем новый выбранный ответ
                                         }}
-                                        style={{ backgroundColor: selectedAnswerIndex === index ? '#008000' : '#747bff' }}
+                                        style={{ backgroundColor: selectedAnswerIndex === index ? '#008000' : 'cornflowerblue' }}
                                         disabled={answers[currentQuestionIndex] !== null}
                                     >
                                         {answer.text}
@@ -58,7 +59,7 @@ export const Quiz = () => {
             <div className={styles.indicators}>
                 {answers.map((answer, index) => (
                     <p key={index} className={answer === null ? styles.notAnswered : (answer ? styles.correct : styles.incorrect)} style={{ fontSize: '40px' }}>
-                        {answer === null ? <FaCircle style={{ color: '#646cff' }} /> : (answer ? <FaCheckCircle style={{ color: 'green' }} /> : <FaTimesCircle style={{ color: 'red' }} />)}
+                        {answer === null ? <FaCircle style={{ color: 'cornflowerblue' }} /> : (answer ? <FaCheckCircle style={{ color: 'green' }} /> : <FaTimesCircle style={{ color: 'red' }} />)}
                     </p>
                 ))}
             </div>
