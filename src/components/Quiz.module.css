@@ -13,6 +13,7 @@
     border-radius: 10px;
 }
 .btn {
+    color: white;
     width: 100%;
     display: flex;
 }
